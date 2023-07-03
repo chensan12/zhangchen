@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>关于HPV 我们关心什么？——基于对微博的文本分析</title>
+    <script src="../static/js/echarts.min.js"></script>
+    <script src="../static/js/jquery-3.3.1.min.js"></script>
+    <script src="../static/js/jquery.min.js"></script>
+    <!-- google-fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;700;900&display=swap"
+        rel="stylesheet">
+    <!-- //google-fonts -->
+
+    <!-- Template CSS Style link -->
+    <link rel="stylesheet" href="../static/css/style-liberty.css">
+
+</head>
+
+<body>
+
+<!--header-->
+<header id="site-header" class="fixed-top">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg stroke">
+            <h1>
+                <a class="navbar-brand" href="index.html">
+                </a>
+            </h1>
+            <!-- if logo is image enable this   
+            <a class="navbar-brand" href="#index.html">
+                <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
+            </a> -->
+            <button class="navbar-toggler  collapsed bg-gradient" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+                <span class="navbar-toggler-icon fa icon-close fa-times"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav ms-lg-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">信息概览 <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="wordcloud.html">热门词云</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="timeline.html">时间线</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            主题分布 <span class="fas fa-angle-down"></span>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="topic.html">主题分布</a>
+                            <a class="dropdown-item" href="network.html">共线网络</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            情感分布 <span class="fas fa-angle-down"></span>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="emotion.html">情感分布</a>
+                        </div>
+                    </li>
+                    <!--/search-right-->
+                    <!--//search-right-->
+                </ul>
+            </div>
+            <!-- search button -->
+
+            <!-- //search button -->
+
+            <!-- toggle switch for light and dark theme -->
+            <div class="cont-ser-position">
+                <nav class="navigation">
+                    <div class="theme-switch-wrapper">
+                        <label class="theme-switch" for="checkbox">
+                            <input type="checkbox" id="checkbox">
+                            <div class="mode-container">
+                                <i class="gg-sun"></i>
+                                <i class="gg-moon"></i>
+                            </div>
+                        </label>
+                    </div>
+                </nav>
+            </div>
+            <!-- //toggle switch for light and dark theme -->
+        </nav>
+    </div>
+</header>
+<!--//header-->
+
+
+
+<section class="w3l-whychooseus py-5" id="about1">
+    <div class="container py-lg-5 py-md-4 py-2">
+        <div class="row align-items-center">
+            <div class="col-lg-7 pe-lg-7 align-center">
+                <h3 class="w3l-title mb-2">关于HPV 我们关心什么？——基于对微博的文本分析</h3>
+                <p class="px-lg-1">国际癌症研究机构（IARC）发布的2020年全球最新癌症负担数据中，2020年，宫颈癌在全球新发病例数60万，死亡数34万。</p>
+                <p class="px-lg-1">其中，中国新发病例数为15.6万，死亡数为5.1万。《“健康中国2030”规划纲要》提出要突出解决好妇女儿童等重点人群的健康问题，影响我国群体疫苗接种的原因繁多。</p>
+                <div class="row two-grids mt-5">
+                    <div class="col-sm-6 grids_info d-flex">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                        <div class="detail ms-3">
+                            <h4 class="w3l-subtitle">HPV概述</h4>
+                            <p>HPV 感染是一种病毒感染，通常会导致皮肤或黏膜生长物（疣）。人乳头状瘤病毒（HPV）有 100 多种。有些类型的 HPV 感染会导致疣，有些则可能导致不同类型的癌症。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 grids_info d-flex mt-sm-0 mt-4">
+                        <i class="fas fa-lightbulb"></i>
+                        <div class="detail ms-3">
+                            <h4 class="w3l-subtitle"> 风险因素</h4>
+                            <p>性伴侣人数</p>
+                            <p>年龄</p>
+                            <p>免疫功能低下</p>
+                            <p>皮肤损伤</p>
+                            <p>个人接触</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 grids_info d-flex mt-md-5 mt-4">
+                        <i class="fas fa-headset"></i>
+                        <div class="detail ms-3">
+                            <h4 class="w3l-subtitle">防治手段</h4>
+                            <p>可以选择三种疫苗用于接种对抗HPV:</p>
+                            <p>九价疫苗：预防九种类型的 HPV</p>
+                            <p>四价疫苗：预防四种亚型的 HPV</p>
+                            <p>二价疫苗：预防两种亚型的 HPV</p>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <p class="px-lg-1">本研究抓取了微博词条#HPV#从2022年10月份——2023年6月，共计1452条博文，并展开后续分析。</p>
+
+            </div>
+            <div class="col-lg-5 mt-lg-0 mt-5 position-relative">
+                <img src="../static/images/index-right.jpg" alt="" class="img-fluid" >
+                <a href="https://www.iarc.fr/faq/latest-global-cancer-data-2020-qa/">来源：https://www.iarc.fr/faq/latest-global-cancer-data-2020-qa/</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="w3l-stats-section py-5" id="stats">
+    <div class="container py-lg-5 py-md-4 py-3">
+        <div class="w3l-stats-inner-inf py-lg-4">
+            <div class="row stats-con">
+                <div class="col-lg-3 col-6 stats_info counter_grid">
+                    <div class="d-flex">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                        <p class="counter"> 1452 </p>
+                    </div>
+                    <h3>信息总量</h3>
+                </div>
+                <div class="col-lg-3 col-6 stats_info counter_grid">
+                    <div class="d-flex">
+                        <i class="fas fa-users"></i>
+                        <p class="counter"> 105975 </p>
+                    </div>
+                    <h3>点赞总量</h3>
+                </div>
+                <div class="col-lg-3 col-6 stats_info counter_grid mt-lg-0 mt-sm-5 mt-5">
+                    <div class="d-flex">
+                        <i class="fas fa-headset"></i>
+                        <p class="counter"> 33869 </p>
+                    </div>
+                    <h3>转发总量</h3>
+                </div>
+                <div class="col-lg-3 col-6 stats_info counter_grid mt-lg-0 mt-sm-5 mt-5">
+                    <div class="d-flex">
+                        <i class="fas fa-project-diagram"></i>
+                        <p class="counter"> 4125 </p>
+                    </div>
+                    <h3>评论总量</h3>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="w3l-footer-29-main">
+    <div class="footer-29 pt-5 pb-4">
+        <div class="container pt-md-4">
+            <p class="copy-footer-29 text-center mt-5 pb-2">© 2023 ZC. All rights reserved. </p>
+        </div>
+    </div>
+</footer>
+
+<!-- Js scripts -->
+<!-- move top -->
+<button onclick="topFunction()" id="movetop" title="Go to top">
+    <span class="fas fa-level-up-alt" aria-hidden="true"></span>
+</button>
+<script>
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () {
+        scrollFunction()
+    };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("movetop").style.display = "block";
+        } else {
+            document.getElementById("movetop").style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>
+<!-- //move top -->
+
+<!-- common jquery plugin -->
+<script src="../static/js/jquery-3.3.1.min.js"></script>
+<!-- //common jquery plugin -->
+
+<!-- theme switch js (light and dark)-->
+<script src="../static/js/theme-change.js"></script>
+<!-- //theme switch js (light and dark)-->
+
+<!--/stats-number-counter-->
+<script src="../static/js/jquery.waypoints.min.js"></script>
+<script src="../static/js/jquery.countup.js"></script>
+<script>
+    $('.counter').countUp();
+
+</script>
+<!--//stats-number-counter-->
+
+<!--/owlcarousel-->
+<script src="../static/js/owl.carousel.js"></script>
+<!-- //tesimonials-->
+<script>
+    $(document).ready(function() {
+        $("#owl-demo1").owlCarousel({
+            loop: true,
+            nav: false,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: false
+                },
+                736: {
+                    items: 1,
+                    nav: false
+                }
+            }
+        })
+    })
+
+</script>
+<!-- //tesimonials-->
+
+<!-- MENU-JS -->
+<script>
+    $(window).on("scroll", function () {
+        var scroll = $(window).scrollTop();
+
+        if (scroll >= 80) {
+            $("#site-header").addClass("nav-fixed");
+        } else {
+            $("#site-header").removeClass("nav-fixed");
+        }
+    });
+
+    //Main navigation Active Class Add Remove
+    $(".navbar-toggler").on("click", function () {
+        $("header").toggleClass("active");
+    });
+    $(document).on("ready", function () {
+        if ($(window).width() > 991) {
+            $("header").removeClass("active");
+        }
+        $(window).on("resize", function () {
+            if ($(window).width() > 991) {
+                $("header").removeClass("active");
+            }
+        });
+    });
+</script>
+<!-- //MENU-JS -->
+
+<!-- disable body scroll which navbar is in active -->
+<script>
+    $(function () {
+        $('.navbar-toggler').click(function () {
+            $('body').toggleClass('noscroll');
+        })
+    });
+</script>
+<!-- //disable body scroll which navbar is in active -->
+
+<!--bootstrap-->
+<script src="../static/js/bootstrap.min.js"></script>
+<!-- //bootstrap-->
+<!-- //Js scripts -->
+
+</body>
+
+</html>
