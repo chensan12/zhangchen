@@ -1,0 +1,561 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2023-07-03">
+    <creator>Gephi 0.10.1</creator>
+    <title></title>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="directed" mode="static">
+    <nodes>
+      <node id="HPV">
+        <viz:size value="20.0"/>
+        <viz:position x="39.736645" y="-0.8896488"/>
+        <viz:color r="37" g="52" b="148"/>
+      </node>
+      <node id="感染">
+        <viz:size value="15.352113"/>
+        <viz:position x="-230.76212" y="-31.05754"/>
+        <viz:color r="64" g="178" b="194"/>
+      </node>
+      <node id="疫苗">
+        <viz:size value="11.830986"/>
+        <viz:position x="-430.1852" y="483.92587"/>
+        <viz:color r="188" g="229" b="201"/>
+      </node>
+      <node id="病毒">
+        <viz:size value="11.549295"/>
+        <viz:position x="-538.48224" y="156.28523"/>
+        <viz:color r="198" g="233" b="201"/>
+      </node>
+      <node id="宫颈癌">
+        <viz:size value="11.830986"/>
+        <viz:position x="-362.4134" y="292.38644"/>
+        <viz:color r="188" g="229" b="201"/>
+      </node>
+      <node id="女性">
+        <viz:size value="11.408451"/>
+        <viz:position x="-226.77345" y="446.5723"/>
+        <viz:color r="203" g="235" b="201"/>
+      </node>
+      <node id="健康">
+        <viz:size value="11.549295"/>
+        <viz:position x="-156.864" y="274.3505"/>
+        <viz:color r="198" g="233" b="201"/>
+      </node>
+      <node id="接种">
+        <viz:size value="10.281691"/>
+        <viz:position x="-755.77924" y="234.16438"/>
+        <viz:color r="244" g="251" b="203" a="0.99607843"/>
+      </node>
+      <node id="检查">
+        <viz:size value="10.422535"/>
+        <viz:position x="-613.22107" y="-183.88528"/>
+        <viz:color r="239" g="249" b="203"/>
+      </node>
+      <node id="##">
+        <viz:size value="11.408451"/>
+        <viz:position x="-275.7323" y="620.2381"/>
+        <viz:color r="203" g="235" b="201"/>
+      </node>
+      <node id="hpv">
+        <viz:size value="12.112677"/>
+        <viz:position x="-29.265718" y="435.65973"/>
+        <viz:color r="177" g="225" b="200"/>
+      </node>
+      <node id="收起">
+        <viz:size value="10.56338"/>
+        <viz:position x="-563.20135" y="338.6808"/>
+        <viz:color r="234" g="247" b="203"/>
+      </node>
+      <node id="危型">
+        <viz:size value="10.422535"/>
+        <viz:position x="-658.3567" y="14.039133"/>
+        <viz:color r="239" g="249" b="203"/>
+      </node>
+      <node id="检测">
+        <viz:size value="10.281691"/>
+        <viz:position x="180.87627" y="-168.55168"/>
+        <viz:color r="244" g="251" b="203" a="0.99607843"/>
+      </node>
+      <node id="男性">
+        <viz:size value="10.281691"/>
+        <viz:position x="-599.05597" y="568.69305"/>
+        <viz:color r="244" g="251" b="203" a="0.99607843"/>
+      </node>
+      <node id="微博">
+        <viz:size value="11.549295"/>
+        <viz:position x="-85.10299" y="633.4247"/>
+        <viz:color r="198" g="233" b="201"/>
+      </node>
+      <node id="阳性">
+        <viz:size value="10.281691"/>
+        <viz:position x="-813.7883" y="-123.74801"/>
+        <viz:color r="244" g="251" b="203" a="0.99607843"/>
+      </node>
+      <node id="科普">
+        <viz:size value="10.704226"/>
+        <viz:position x="56.279552" y="246.97511"/>
+        <viz:color r="229" g="245" b="202"/>
+      </node>
+      <node id="患者">
+        <viz:size value="10.281691"/>
+        <viz:position x="-515.3963" y="-342.23816"/>
+        <viz:color r="244" g="251" b="203" a="0.99607843"/>
+      </node>
+      <node id="病变">
+        <viz:size value="10.281691"/>
+        <viz:position x="-380.07526" y="-195.92395"/>
+        <viz:color r="244" g="251" b="203" a="0.99607843"/>
+      </node>
+      <node id="预防">
+        <viz:size value="10.422535"/>
+        <viz:position x="-333.8089" y="114.86893"/>
+        <viz:color r="239" g="249" b="203"/>
+      </node>
+      <node id="宫颈">
+        <viz:size value="10.140845"/>
+        <viz:position x="-226.86922" y="-601.3268"/>
+        <viz:color r="249" g="253" b="203"/>
+      </node>
+      <node id="视频">
+        <viz:size value="11.267606"/>
+        <viz:position x="91.37065" y="605.9713"/>
+        <viz:color r="208" g="237" b="202"/>
+      </node>
+      <node id="抗体">
+        <viz:size value="10.140845"/>
+        <viz:position x="391.40875" y="-218.78558"/>
+        <viz:color r="249" g="253" b="203"/>
+      </node>
+      <node id="治疗">
+        <viz:size value="10.140845"/>
+        <viz:position x="327.70642" y="301.6401"/>
+        <viz:color r="249" g="253" b="203"/>
+      </node>
+      <node id="症状">
+        <viz:size value="10.281691"/>
+        <viz:position x="-464.37265" y="-37.2889"/>
+        <viz:color r="244" g="251" b="203" a="0.99607843"/>
+      </node>
+      <node id="细胞">
+        <viz:size value="10.422535"/>
+        <viz:position x="-668.44037" y="-460.9841"/>
+        <viz:color r="239" g="249" b="203"/>
+      </node>
+      <node id="尖锐湿疣">
+        <viz:size value="10.704226"/>
+        <viz:position x="269.67612" y="568.78735"/>
+        <viz:color r="229" g="245" b="202"/>
+      </node>
+      <node id="医生">
+        <viz:size value="10.422535"/>
+        <viz:position x="-98.418236" y="107.19162"/>
+        <viz:color r="239" g="249" b="203"/>
+      </node>
+      <node id="疾病">
+        <viz:size value="10.140845"/>
+        <viz:position x="264.2817" y="-359.08792"/>
+        <viz:color r="249" g="253" b="203"/>
+      </node>
+      <node id="发现">
+        <viz:size value="10.140845"/>
+        <viz:position x="46.75267" y="-308.41068"/>
+        <viz:color r="249" g="253" b="203"/>
+      </node>
+      <node id="持续">
+        <viz:size value="10.140845"/>
+        <viz:position x="-49.504898" y="-147.71709"/>
+        <viz:color r="249" g="253" b="203"/>
+      </node>
+      <node id="转阴">
+        <viz:size value="10.140845"/>
+        <viz:position x="308.98444" y="765.21173"/>
+        <viz:color r="249" g="253" b="203"/>
+      </node>
+      <node id="筛查">
+        <viz:size value="10.140845"/>
+        <viz:position x="173.02162" y="402.2914"/>
+        <viz:color r="249" g="253" b="203"/>
+      </node>
+      <node id="九价">
+        <viz:size value="10.422535"/>
+        <viz:position x="-244.88335" y="800.9119"/>
+        <viz:color r="239" g="249" b="203"/>
+      </node>
+      <node id="性生活">
+        <viz:size value="10.140845"/>
+        <viz:position x="-836.4999" y="74.3681"/>
+        <viz:color r="249" g="253" b="203"/>
+      </node>
+      <node id="免疫力">
+        <viz:size value="10.140845"/>
+        <viz:position x="282.9964" y="-20.895554"/>
+        <viz:color r="249" g="253" b="203"/>
+      </node>
+      <node id="生活">
+        <viz:size value="10.140845"/>
+        <viz:position x="107.84976" y="-481.60992"/>
+        <viz:color r="249" g="253" b="203"/>
+      </node>
+      <node id="传播">
+        <viz:size value="10.140845"/>
+        <viz:position x="-30.898285" y="-634.7946"/>
+        <viz:color r="249" g="253" b="203"/>
+      </node>
+      <node id="清除">
+        <viz:size value="10.140845"/>
+        <viz:position x="203.45586" y="140.44229"/>
+        <viz:color r="249" g="253" b="203"/>
+      </node>
+      <node id="接触">
+        <viz:size value="10.140845"/>
+        <viz:position x="-192.97127" y="-249.866"/>
+        <viz:color r="249" g="253" b="203"/>
+      </node>
+      <node id="挖空">
+        <viz:size value="10.281691"/>
+        <viz:position x="-422.3981" y="-525.59735"/>
+        <viz:color r="244" g="251" b="203" a="0.99607843"/>
+      </node>
+      <node id="病毒感染">
+        <viz:size value="10.0"/>
+        <viz:position x="-771.35266" y="-310.5385"/>
+        <viz:color r="255" g="255" b="204"/>
+      </node>
+      <node id="发生">
+        <viz:size value="10.140845"/>
+        <viz:position x="-301.65628" y="-396.58557"/>
+        <viz:color r="249" g="253" b="203"/>
+      </node>
+      <node id="建议">
+        <viz:size value="10.0"/>
+        <viz:position x="184.72386" y="-643.45996"/>
+        <viz:color r="255" g="255" b="204"/>
+      </node>
+      <node id="妇产科">
+        <viz:size value="10.140845"/>
+        <viz:position x="-101.87453" y="-443.23602"/>
+        <viz:color r="249" g="253" b="203"/>
+      </node>
+      <node id="导致">
+        <viz:size value="10.0"/>
+        <viz:position x="795.50104" y="230.40193"/>
+        <viz:color r="255" g="255" b="204"/>
+      </node>
+      <node id="增加">
+        <viz:size value="10.0"/>
+        <viz:position x="-387.65723" y="-733.99457"/>
+        <viz:color r="255" g="255" b="204"/>
+      </node>
+      <node id="时间">
+        <viz:size value="10.0"/>
+        <viz:position x="547.3453" y="319.44962"/>
+        <viz:color r="255" g="255" b="204"/>
+      </node>
+      <node id="组织">
+        <viz:size value="10.0"/>
+        <viz:position x="365.0686" y="-747.16144"/>
+        <viz:color r="255" g="255" b="204"/>
+      </node>
+      <node id="研究">
+        <viz:size value="10.0"/>
+        <viz:position x="-205.74876" y="-800.5529"/>
+        <viz:color r="255" g="255" b="204"/>
+      </node>
+      <node id="途径">
+        <viz:size value="10.0"/>
+        <viz:position x="-568.79614" y="-624.3779"/>
+        <viz:color r="255" g="255" b="204"/>
+      </node>
+      <node id="细胞学">
+        <viz:size value="10.0"/>
+        <viz:position x="722.83636" y="401.03867"/>
+        <viz:color r="255" g="255" b="204"/>
+      </node>
+      <node id="情况">
+        <viz:size value="10.0"/>
+        <viz:position x="833.091" y="40.62402"/>
+        <viz:color r="255" g="255" b="204"/>
+      </node>
+      <node id="必修课">
+        <viz:size value="10.0"/>
+        <viz:position x="654.1534" y="-505.17435"/>
+        <viz:color r="255" g="255" b="204"/>
+      </node>
+      <node id="作用">
+        <viz:size value="10.0"/>
+        <viz:position x="524.3719" y="-638.5619"/>
+        <viz:color r="255" g="255" b="204"/>
+      </node>
+      <node id="复查">
+        <viz:size value="10.0"/>
+        <viz:position x="662.931" y="-52.660755"/>
+        <viz:color r="255" g="255" b="204"/>
+      </node>
+      <node id="医院">
+        <viz:size value="10.0"/>
+        <viz:position x="-450.41064" y="707.99835"/>
+        <viz:color r="255" g="255" b="204"/>
+      </node>
+      <node id="定期">
+        <viz:size value="10.0"/>
+        <viz:position x="432.67105" y="472.7803"/>
+        <viz:color r="255" g="255" b="204"/>
+      </node>
+      <node id="注射">
+        <viz:size value="10.0"/>
+        <viz:position x="472.9086" y="678.09314"/>
+        <viz:color r="255" g="255" b="204"/>
+      </node>
+      <node id="预约">
+        <viz:size value="10.140845"/>
+        <viz:position x="-733.32465" y="418.30557"/>
+        <viz:color r="249" g="253" b="203"/>
+      </node>
+      <node id="部位">
+        <viz:size value="10.0"/>
+        <viz:position x="350.86975" y="-535.73114"/>
+        <viz:color r="255" g="255" b="204"/>
+      </node>
+      <node id="皮肤">
+        <viz:size value="10.0"/>
+        <viz:position x="427.4839" y="142.68448"/>
+        <viz:color r="255" g="255" b="204"/>
+      </node>
+      <node id="风险">
+        <viz:size value="10.0"/>
+        <viz:position x="478.29074" y="-45.254044"/>
+        <viz:color r="255" g="255" b="204"/>
+      </node>
+      <node id="异常">
+        <viz:size value="10.0"/>
+        <viz:position x="-20.64952" y="-824.7239"/>
+        <viz:color r="255" g="255" b="204"/>
+      </node>
+      <node id="中医">
+        <viz:size value="10.422535"/>
+        <viz:position x="133.85088" y="805.64343"/>
+        <viz:color r="239" g="249" b="203"/>
+      </node>
+      <node id="妇科">
+        <viz:size value="10.0"/>
+        <viz:position x="-47.508278" y="835.308"/>
+        <viz:color r="255" g="255" b="204"/>
+      </node>
+      <node id="癌前">
+        <viz:size value="10.0"/>
+        <viz:position x="488.32" y="-403.4143"/>
+        <viz:color r="255" g="255" b="204"/>
+      </node>
+      <node id="公开课">
+        <viz:size value="10.0"/>
+        <viz:position x="170.00017" y="-821.4401"/>
+        <viz:color r="255" g="255" b="204"/>
+      </node>
+      <node id="外阴">
+        <viz:size value="10.0"/>
+        <viz:position x="817.2876" y="-166.60724"/>
+        <viz:color r="255" g="255" b="204"/>
+      </node>
+      <node id="TCT">
+        <viz:size value="10.0"/>
+        <viz:position x="751.4889" y="-347.55234"/>
+        <viz:color r="255" g="255" b="204"/>
+      </node>
+      <node id="诊断">
+        <viz:size value="10.0"/>
+        <viz:position x="593.378" y="-239.96475"/>
+        <viz:color r="255" g="255" b="204"/>
+      </node>
+      <node id="乳头">
+        <viz:size value="10.0"/>
+        <viz:position x="615.97235" y="553.0959"/>
+        <viz:color r="255" g="255" b="204"/>
+      </node>
+      <node id="常见">
+        <viz:size value="10.0"/>
+        <viz:position x="625.5591" y="141.14703"/>
+        <viz:color r="255" g="255" b="204"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="HPV" target="感染" weight="7294.0"/>
+      <edge id="1" source="HPV" target="疫苗" weight="3369.0"/>
+      <edge id="2" source="HPV" target="病毒" weight="3135.0"/>
+      <edge id="3" source="HPV" target="宫颈癌" weight="2605.0"/>
+      <edge id="4" source="HPV" target="女性" weight="2046.0"/>
+      <edge id="5" source="HPV" target="健康" weight="2025.0"/>
+      <edge id="6" source="HPV" target="接种" weight="1886.0"/>
+      <edge id="7" source="HPV" target="检查" weight="1762.0"/>
+      <edge id="8" source="##" target="hpv" weight="1730.0"/>
+      <edge id="9" source="感染" target="病毒" weight="1619.0"/>
+      <edge id="10" source="接种" target="疫苗" weight="1470.0"/>
+      <edge id="11" source="##" target="HPV" weight="1455.0"/>
+      <edge id="12" source="HPV" target="hpv" weight="1435.0"/>
+      <edge id="13" source="HPV" target="收起" weight="1424.0"/>
+      <edge id="14" source="宫颈癌" target="感染" weight="1355.0"/>
+      <edge id="15" source="HPV" target="危型" weight="1290.0"/>
+      <edge id="16" source="HPV" target="检测" weight="1273.0"/>
+      <edge id="17" source="HPV" target="男性" weight="1272.0"/>
+      <edge id="18" source="HPV" target="微博" weight="1192.0"/>
+      <edge id="19" source="HPV" target="阳性" weight="1166.0"/>
+      <edge id="20" source="感染" target="疫苗" weight="1113.0"/>
+      <edge id="21" source="HPV" target="科普" weight="1075.0"/>
+      <edge id="22" source="HPV" target="患者" weight="1039.0"/>
+      <edge id="23" source="女性" target="感染" weight="1035.0"/>
+      <edge id="24" source="HPV" target="病变" weight="1025.0"/>
+      <edge id="25" source="HPV" target="预防" weight="1022.0"/>
+      <edge id="26" source="HPV" target="宫颈" weight="1017.0"/>
+      <edge id="27" source="健康" target="感染" weight="986.0"/>
+      <edge id="28" source="hpv" target="感染" weight="963.0"/>
+      <edge id="29" source="感染" target="检查" weight="906.0"/>
+      <edge id="30" source="HPV" target="视频" weight="893.0"/>
+      <edge id="31" source="宫颈癌" target="疫苗" weight="859.0"/>
+      <edge id="32" source="HPV" target="抗体" weight="850.0"/>
+      <edge id="33" source="hpv" target="健康" weight="805.0"/>
+      <edge id="34" source="HPV" target="治疗" weight="801.0"/>
+      <edge id="35" source="危型" target="感染" weight="792.0"/>
+      <edge id="36" source="##" target="感染" weight="787.0"/>
+      <edge id="37" source="HPV" target="症状" weight="774.0"/>
+      <edge id="38" source="HPV" target="细胞" weight="766.0"/>
+      <edge id="39" source="HPV" target="尖锐湿疣" weight="750.0"/>
+      <edge id="40" source="微博" target="视频" weight="741.0"/>
+      <edge id="41" source="健康" target="女性" weight="741.0"/>
+      <edge id="42" source="##" target="健康" weight="723.0"/>
+      <edge id="43" source="感染" target="收起" weight="721.0"/>
+      <edge id="44" source="感染" target="男性" weight="709.0"/>
+      <edge id="45" source="女性" target="宫颈癌" weight="677.0"/>
+      <edge id="46" source="健康" target="微博" weight="667.0"/>
+      <edge id="47" source="感染" target="阳性" weight="654.0"/>
+      <edge id="48" source="感染" target="细胞" weight="650.0"/>
+      <edge id="49" source="HPV" target="医生" weight="642.0"/>
+      <edge id="50" source="感染" target="病变" weight="640.0"/>
+      <edge id="51" source="HPV" target="疾病" weight="628.0"/>
+      <edge id="52" source="HPV" target="发现" weight="626.0"/>
+      <edge id="53" source="宫颈癌" target="病毒" weight="623.0"/>
+      <edge id="54" source="HPV" target="持续" weight="619.0"/>
+      <edge id="55" source="HPV" target="转阴" weight="607.0"/>
+      <edge id="56" source="HPV" target="筛查" weight="605.0"/>
+      <edge id="57" source="HPV" target="九价" weight="600.0"/>
+      <edge id="58" source="疫苗" target="病毒" weight="594.0"/>
+      <edge id="59" source="hpv" target="微博" weight="592.0"/>
+      <edge id="60" source="感染" target="接种" weight="584.0"/>
+      <edge id="61" source="HPV" target="性生活" weight="581.0"/>
+      <edge id="62" source="HPV" target="免疫力" weight="576.0"/>
+      <edge id="63" source="健康" target="视频" weight="572.0"/>
+      <edge id="64" source="HPV" target="生活" weight="572.0"/>
+      <edge id="65" source="HPV" target="传播" weight="568.0"/>
+      <edge id="66" source="##" target="尖锐湿疣" weight="565.0"/>
+      <edge id="67" source="HPV" target="清除" weight="556.0"/>
+      <edge id="68" source="疫苗" target="预防" weight="554.0"/>
+      <edge id="69" source="hpv" target="视频" weight="549.0"/>
+      <edge id="70" source="HPV" target="接触" weight="546.0"/>
+      <edge id="71" source="hpv" target="疫苗" weight="541.0"/>
+      <edge id="72" source="挖空" target="细胞" weight="540.0"/>
+      <edge id="73" source="宫颈" target="感染" weight="537.0"/>
+      <edge id="74" source="女性" target="疫苗" weight="532.0"/>
+      <edge id="75" source="hpv" target="女性" weight="530.0"/>
+      <edge id="76" source="感染" target="预防" weight="528.0"/>
+      <edge id="77" source="hpv" target="九价" weight="519.0"/>
+      <edge id="79" source="健康" target="科普" weight="512.0"/>
+      <edge id="80" source="健康" target="宫颈癌" weight="511.0"/>
+      <edge id="81" source="##" target="微博" weight="503.0"/>
+      <edge id="82" source="HPV" target="病毒感染" weight="499.0"/>
+      <edge id="83" source="感染" target="科普" weight="497.0"/>
+      <edge id="84" source="健康" target="病毒" weight="488.0"/>
+      <edge id="85" source="HPV" target="发生" weight="486.0"/>
+      <edge id="86" source="患者" target="感染" weight="483.0"/>
+      <edge id="87" source="HPV" target="建议" weight="481.0"/>
+      <edge id="88" source="##" target="女性" weight="480.0"/>
+      <edge id="89" source="健康" target="疫苗" weight="479.0"/>
+      <edge id="90" source="##" target="视频" weight="469.0"/>
+      <edge id="91" source="微博" target="感染" weight="466.0"/>
+      <edge id="92" source="HPV" target="妇产科" weight="465.0"/>
+      <edge id="93" source="HPV" target="导致" weight="450.0"/>
+      <edge id="94" source="女性" target="微博" weight="446.0"/>
+      <edge id="95" source="尖锐湿疣" target="感染" weight="444.0"/>
+      <edge id="96" source="##" target="疫苗" weight="443.0"/>
+      <edge id="97" source="HPV" target="增加" weight="438.0"/>
+      <edge id="98" source="##" target="九价" weight="434.0"/>
+      <edge id="99" source="感染" target="症状" weight="432.0"/>
+      <edge id="100" source="hpv" target="转阴" weight="431.0"/>
+      <edge id="101" source="HPV" target="时间" weight="426.0"/>
+      <edge id="102" source="HPV" target="组织" weight="420.0"/>
+      <edge id="103" source="hpv" target="尖锐湿疣" weight="416.0"/>
+      <edge id="104" source="HPV" target="研究" weight="414.0"/>
+      <edge id="105" source="危型" target="宫颈癌" weight="406.0"/>
+      <edge id="106" source="九价" target="疫苗" weight="406.0"/>
+      <edge id="107" source="收起" target="疫苗" weight="405.0"/>
+      <edge id="108" source="HPV" target="途径" weight="405.0"/>
+      <edge id="109" source="HPV" target="细胞学" weight="402.0"/>
+      <edge id="110" source="女性" target="病毒" weight="401.0"/>
+      <edge id="111" source="HPV" target="情况" weight="400.0"/>
+      <edge id="112" source="宫颈癌" target="微博" weight="395.0"/>
+      <edge id="113" source="感染" target="持续" weight="395.0"/>
+      <edge id="114" source="发现" target="感染" weight="394.0"/>
+      <edge id="115" source="患者" target="病毒" weight="393.0"/>
+      <edge id="116" source="HPV" target="必修课" weight="392.0"/>
+      <edge id="117" source="##" target="宫颈癌" weight="392.0"/>
+      <edge id="118" source="HPV" target="作用" weight="392.0"/>
+      <edge id="119" source="性生活" target="感染" weight="389.0"/>
+      <edge id="120" source="HPV" target="复查" weight="388.0"/>
+      <edge id="121" source="微博" target="科普" weight="388.0"/>
+      <edge id="122" source="感染" target="检测" weight="387.0"/>
+      <edge id="123" source="HPV" target="医院" weight="386.0"/>
+      <edge id="124" source="感染" target="治疗" weight="386.0"/>
+      <edge id="125" source="感染" target="生活" weight="385.0"/>
+      <edge id="126" source="HPV" target="定期" weight="380.0"/>
+      <edge id="127" source="感染" target="清除" weight="376.0"/>
+      <edge id="128" source="HPV" target="注射" weight="375.0"/>
+      <edge id="129" source="收起" target="病毒" weight="373.0"/>
+      <edge id="130" source="hpv" target="医生" weight="370.0"/>
+      <edge id="131" source="女性" target="视频" weight="368.0"/>
+      <edge id="132" source="hpv" target="宫颈癌" weight="367.0"/>
+      <edge id="133" source="hpv" target="科普" weight="361.0"/>
+      <edge id="134" source="感染" target="接触" weight="360.0"/>
+      <edge id="135" source="宫颈癌" target="预防" weight="358.0"/>
+      <edge id="136" source="科普" target="视频" weight="356.0"/>
+      <edge id="137" source="HPV" target="预约" weight="354.0"/>
+      <edge id="138" source="抗体" target="检测" weight="352.0"/>
+      <edge id="139" source="疫苗" target="预约" weight="349.0"/>
+      <edge id="140" source="HPV" target="部位" weight="346.0"/>
+      <edge id="142" source="传播" target="感染" weight="345.0"/>
+      <edge id="143" source="尖锐湿疣" target="微博" weight="341.0"/>
+      <edge id="144" source="HPV" target="皮肤" weight="340.0"/>
+      <edge id="145" source="免疫力" target="感染" weight="340.0"/>
+      <edge id="146" source="HPV" target="风险" weight="339.0"/>
+      <edge id="147" source="HPV" target="异常" weight="338.0"/>
+      <edge id="148" source="尖锐湿疣" target="视频" weight="336.0"/>
+      <edge id="149" source="中医" target="妇科" weight="333.0"/>
+      <edge id="151" source="HPV" target="挖空" weight="330.0"/>
+      <edge id="152" source="感染" target="挖空" weight="330.0"/>
+      <edge id="153" source="HPV" target="中医" weight="329.0"/>
+      <edge id="154" source="感染" target="视频" weight="328.0"/>
+      <edge id="155" source="宫颈癌" target="病变" weight="327.0"/>
+      <edge id="156" source="HPV" target="癌前" weight="326.0"/>
+      <edge id="157" source="HPV" target="公开课" weight="324.0"/>
+      <edge id="158" source="宫颈癌" target="筛查" weight="324.0"/>
+      <edge id="159" source="女性" target="男性" weight="324.0"/>
+      <edge id="160" source="微博" target="疫苗" weight="323.0"/>
+      <edge id="161" source="检查" target="细胞" weight="323.0"/>
+      <edge id="162" source="HPV" target="外阴" weight="321.0"/>
+      <edge id="163" source="病毒" target="阳性" weight="319.0"/>
+      <edge id="164" source="HPV" target="TCT" weight="317.0"/>
+      <edge id="165" source="危型" target="病毒" weight="316.0"/>
+      <edge id="166" source="HPV" target="诊断" weight="316.0"/>
+      <edge id="167" source="发生" target="感染" weight="314.0"/>
+      <edge id="168" source="hpv" target="收起" weight="313.0"/>
+      <edge id="169" source="hpv" target="病毒" weight="312.0"/>
+      <edge id="170" source="HPV" target="乳头" weight="311.0"/>
+      <edge id="171" source="HPV" target="常见" weight="310.0"/>
+      <edge id="172" source="医生" target="感染" weight="310.0"/>
+      <edge id="173" source="感染" target="疾病" weight="309.0"/>
+      <edge id="174" source="宫颈癌" target="症状" weight="308.0"/>
+      <edge id="175" source="健康" target="医生" weight="307.0"/>
+      <edge id="176" source="检查" target="病毒" weight="306.0"/>
+      <edge id="177" source="妇产科" target="感染" weight="304.0"/>
+      <edge id="178" source="中医" target="微博" weight="303.0"/>
+      <edge id="179" source="中医" target="视频" weight="303.0"/>
+    </edges>
+  </graph>
+</gexf>
